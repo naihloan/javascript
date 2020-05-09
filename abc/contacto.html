@@ -4,31 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio Mock, by Benjamín Juárez</title>
+    <link rel="stylesheet" href="estilos.css"/>
 </head>
-<body>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="post.html">Post</a></li>
-    </ul>
-    <h1>Contacto</h1>
-    <h5>Formulario de contacto</h5>
-    <form action="">
-        <label for="">Nombre</label>
-        <input type="text"> <br/>
+    <body>
 
-        <label for="">Apellido</label>
-        <input type="text"> <br/>
+        <div id="container">
 
-        <label for="">Email</label>
-        <input type="email"> <br/>
+            <header>
+                <h1>Posts on Tech World + Literature</h1>
+            </header>
 
-        <select name="" id="">
-            <option value="Hombre">Hombre</option>
-            <option value="Mujer">Mujer</option>
-        </select> <br/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="contacto.html">Contact</a></li>
+                <li><a href="post.html">Post</a></li>
+            </ul>
+        </nav>
 
-        <input type="submit" value="Enviar">
-    </form>
-</body>
+        <div class="clearfix"></div>
+
+        <section id="content">
+
+            <article class="article">
+                <h1>Contacto</h1>
+                <h5>Formulario de contacto</h5>
+                <form action="">
+                    <label for="">Nombre</label>
+                    <input type="text"> <br/>
+            
+                    <label for="">Apellido</label>
+                    <input type="text"> <br/>
+            
+                    <label for="">Email</label>
+                    <input type="email"> <br/>
+            
+                    <select name="" id="">
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select> <br/>
+            
+                    <input type="submit" value="Enviar">
+                </form>            </article>
+
+        </section>
+
+        <aside>
+            <h2>Barra lateral</h2>
+            <form action="">
+                <input type="text">
+                <input type="submit" value="Buscar">
+            </form>
+        </aside>
+
+        <div class="clearfix"></div>
+
+       <footer>
+           venhamon web 2020
+       </footer> 
+
+        </div>
+    </body>
 </html>
